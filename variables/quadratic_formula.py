@@ -20,5 +20,5 @@ elif d == 0:
 else:
     # Complex roots
     real_part = -b / (2*a)
-    imaginary_part = math.sqrt(-d) / (2*a)
+    imaginary_part = (-d)**(1/2) / (2*a)
     print("The roots are:", f"{real_part}+{imaginary_part}i and {real_part}-{imaginary_part}i")
